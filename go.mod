@@ -10,7 +10,7 @@ require (
 	github.com/aws/aws-sdk-go v1.12.15
 	github.com/containerd/containerd v1.0.0-beta.2
 	github.com/docker/distribution v2.6.0-rc.1.0.20170726174610-edc3ab29cdff+incompatible // indirect
-	github.com/docker/docker v1.4.2-0.20200309214505-aa6a9891b09c
+	github.com/docker/docker v24.0.9+incompatible
 	github.com/docker/go-connections v0.3.0
 	github.com/docker/go-units v0.3.2
 	github.com/emicklei/go-restful v2.4.0+incompatible // indirect
@@ -36,6 +36,8 @@ require (
 	github.com/juju/ratelimit v1.0.1 // indirect
 	github.com/mailru/easyjson v0.0.0-20171120080333-32fa128f234d // indirect
 	github.com/miekg/dns v0.0.0-20171019064225-822ae18e7187
+	github.com/moby/term v0.5.0 // indirect
+	github.com/morikuni/aec v1.0.0 // indirect
 	github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e // indirect
 	github.com/opencontainers/go-digest v1.0.0-rc1 // indirect
 	github.com/opencontainers/image-spec v1.0.0 // indirect
@@ -48,16 +50,16 @@ require (
 	github.com/spf13/pflag v1.0.0 // indirect
 	github.com/stretchr/testify v1.4.0
 	github.com/urfave/negroni v0.2.0
-	golang.org/x/crypto v0.0.0-20220722155217-630584e8d5aa
-	golang.org/x/net v0.0.0-20211112202133-69e39bad7dc2
+	golang.org/x/crypto v0.1.0
+	golang.org/x/net v0.1.0
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
-	golang.org/x/sync v0.0.0-20200317015054-43a5402ce75a
-	golang.org/x/sys v0.0.0-20220722155257-8c9f86f7a55f // indirect
-	golang.org/x/text v0.3.6
+	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4
+	golang.org/x/text v0.4.0
 	google.golang.org/api v0.26.0
 	google.golang.org/genproto v0.0.0-20200611194920-44ba362f84c1 // indirect
 	gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f // indirect
 	gopkg.in/inf.v0 v0.9.0 // indirect
+	gotest.tools/v3 v3.5.1 // indirect
 	k8s.io/api v0.0.0-20171027084545-218912509d74 // indirect
 	k8s.io/apimachinery v0.0.0-20171027084411-18a564baac72
 	k8s.io/client-go v5.0.1+incompatible
